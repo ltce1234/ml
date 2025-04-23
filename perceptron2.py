@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Perceptron
 from sklearn.metrics import accuracy_score
 
-URL_='https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data&#39;
+URL_='https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 df = pd.read_csv(URL_, header = None)
 
 X = df.iloc[:, 0:4].values
